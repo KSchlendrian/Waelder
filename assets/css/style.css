@@ -1,0 +1,52 @@
+/* 
+Wer kennt sie nicht? Die Wälder Europas. Du sollst mehrere "Karten" (bzw. Seiten) erstellen, die jeweils einen Wald in Europa kurz vorstellen. Dazu zählt der Name, ein Bild, sowie ein paar kurze Informationen über den Wald.
+Außerdem gelangt man über die Buttons "Weiter" und "Zurück" zu der nächsten bzw. vorherigen Karte.
+Das HTML ist für die index.html, sowie für forest1.html vorgegeben. Anhand dessen kannst du die anderen HTML-Dateien erstellen. Achte auf die korrekte Angabe der Pfade!
+Nutze für das Styling folgende Eigenschaften:
+font-family: Poppins (Diese kannst du dir über Google Fonts herunterladen.)
+Das Element <div>, welches sich im <main> befindet (sprich es im CSS folgendermaßen an: main div {...}) hat eine Höhe von 700px und eine Breite von 500px.
+Für .index-div nutze folgendes Bild als Hintergrundbild.
+Um Elemente automatisch zu zentrieren, kannst du margin-left und margin-right jeweils auf auto zu setzen. Das ist in diesem Fall relevant für das <div>, in dem sich das <img> befindet.
+Das <img> bekommt einen leichten Schatten, der sich rund um das Bild legt.
+ */
+
+.index-div {
+  padding: 25px 20px 20px 20px;
+  border: black 2px solid;
+  width: 500px;
+  height: 700px;
+  border-radius: 25px;
+  background-image: url(../img/forestmain.jpg);
+  text-align: center;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  padding: 0px 40px 0px 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  border: black 2px solid;
+  border-radius: 25px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.index-div-forest1 {
+  padding: 25px 20px 20px 20px;
+  border: black 2px solid;
+  width: 500px;
+  height: 700px;
+  border-radius: 25px;
+  background-color: darkolivegreen;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  border-radius: 25px;
+}
